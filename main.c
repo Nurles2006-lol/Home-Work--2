@@ -1,11 +1,13 @@
 #include <stdio.h>
+int main(){
+int x, y;
+scanf("%d", &x);
+scanf("%d", &y);
+printf("sum %d\n", x+y);
+printf("diff:%d\n", x-y);
+printf("product %d\n", x*y);
+printf("quontient %d\n", x/y);
 
-void main ()
+return 0;
 
-{
-	printf("Name : 이승한\n");
-	printf("Student ID : 202310627\n");
-	printf("Major : AI 빅데이터\n");
-	printf("Determination : C언어를 마스터하고 코딩과 친해지고 싶습니다.\n");
-	return 0;
 }
